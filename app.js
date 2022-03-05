@@ -1,5 +1,5 @@
 const promptName = prompt("Lütfen adınızı giriniz.")
-
+ 
 let fullName = `${promptName[0].toUpperCase()}${promptName.slice(1).toLowerCase()}`
 document.querySelector("#userName").innerText = fullName;
 function showCurrentDayAndTime() {
