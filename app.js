@@ -3,7 +3,7 @@ const promptName = prompt("Lütfen adınızı giriniz.")
 let fullName = `${promptName[0].toUpperCase()}${promptName.slice(1).toLowerCase()}`
 document.querySelector("#userName").innerText = fullName;
 function showCurrentDayAndTime() {
-    
+     
   
     const date = new Date()
     let [hour, minute, second] = [date.getHours(), date.getMinutes(), date.getSeconds()];
